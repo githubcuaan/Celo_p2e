@@ -1,5 +1,7 @@
 # celo_p2e — Play-to-Earn on Celo
 
+![celo_p2e hero image](./assets/hero.png)
+
 Project: celo_p2e  
 Author: Pham Le Dinh An
 
