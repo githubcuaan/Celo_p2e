@@ -38,4 +38,9 @@ contract OwnerPlayer {
     function getTotalPlays() public view returns (uint256) {
         return interactions.length;
     }
+
+    function setPlayerGame(address _newPlayerGame) external {
+    require(msg.sender == address(gameOwner.owner()), "Only GameOwner owner can set");
+    playerGame = PlayerGame(payable(_newPlayerGame));
+}
 }
